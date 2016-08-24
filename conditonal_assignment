@@ -1,0 +1,5 @@
+#the conditonal assigment we use ||= this works as putting up 
+
+favorite_animal ||= ants 
+print "my favorite animal is #{favorite_animal}
+
