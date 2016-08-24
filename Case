@@ -1,0 +1,27 @@
+# Ruby_coding
+
+#Working case
+
+=begin first we will set up a hash symbols to use and it will do various of things =end
+=begin we will create a case where we will use all the things we learnt in code academy to update delete 
+display and add.
+
+music = {chief_keef: 9, hoodirch_pabloo: 10, dom_kennedy: 8}
+puts "whos your favourise artist""
+
+choice = gets.chomp.downcase
+#this will prompt the user to choose a artist
+
+case music
+when "add"
+puts "what artist do you want to add"
+artist = gets.chomp
+puts "whats your rating for this album"
+rating = gets.chomp
+music[artist] = gets.chomp
+puts ["the new artist is #{music} with a new rating of#{rating}"]
+
+
+
+
+
