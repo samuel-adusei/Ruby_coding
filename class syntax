@@ -1,0 +1,11 @@
+#this is the same as python basically but lil different
+
+class Person
+    def initalize(name)
+    @name = name #this means an instant variable for the class Person
+    #we can create an instance for the class like this
+    end
+end
+matz = Person.new("Samuel|")
+
+    
