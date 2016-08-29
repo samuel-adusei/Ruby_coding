@@ -1,0 +1,14 @@
+=begin we will learn how to create a class from 
+public and private sectors
+= end
+
+class Dog
+  def initalize(name.breed)
+  @name = name
+  @breed = breed
+  end
+  
+  private
+  def Bark
+  
+  
