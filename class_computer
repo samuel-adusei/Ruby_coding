@@ -1,0 +1,29 @@
+=begin 
+we will learn to how to use claass and operate it in a way where we allow
+the user to choose there password and username
+=end
+
+class Computer
+ @@users = {} #this creates a key/value for the username and password 
+ 
+ def initialize(username,password)
+ @username = password
+ @password = password
+ @files = {}
+ @@user[username] = password
+end
+ 
+ def Computer.get_users
+ return @@users
+end
+ 
+ def create(filename)
+ time = Time.now
+ @files[username] = time
+ 
+ puts "the username is #{username} with a password with #{password} and a time 
+ with #{time}"
+ end
+end
+
+my_computer = Computer.new("samuel","sosa123")
