@@ -19,3 +19,11 @@ class Message
   @@message_sent = += 1 # this is how you increment 
   end
 end
+
+#INHERITANCE
+#same as python where one class inherits another andt the main class becomes the subclass or childclass
+class Email < Message
+   def initialize (subject)
+   @subject = subject
+   end
+end
