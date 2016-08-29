@@ -9,3 +9,13 @@ end
 matz = Person.new("Samuel|")
 
     
+#ANOTHER ONE
+
+class Message
+@@messages_sent = 0 #this works as a class variable and has to come before the initialize
+  def initialize(from,to)
+  @from = from
+  @to = to
+  @@message_sent = += 1 # this is how you increment 
+  end
+end
